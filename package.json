@@ -1,0 +1,39 @@
+{
+  "name": "mebin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "1.3.1",
+    "@material-ui/icons": "1.1.0",
+    "firebase": "4.6.2",
+    "history": "4.7.2",
+    "jss": "^9.8.7",
+    "ra-auth-firebase": "^1.0.2",
+    "ra-data-firebase": "^1.0.3",
+    "ra-input-rich-text": "^2.1.0",
+    "react": "16.4.1",
+    "react-admin": "^2.1.1",
+    "react-admin-date-inputs": "1.0.15",
+    "react-dom": "16.4.1",
+    "react-jss": "^8.6.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format:js": "prettier src/**/*.js --write",
+    "format:css": "prettier src/**/*.css --write",
+    "format": "yarn format:js && yarn format:css",
+    "serve": "serve -s build -p 4444",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7",
+    "serve": "^9.2.0"
+  }
+}
