@@ -10,7 +10,7 @@
     "history": "4.7.2",
     "jss": "^9.8.7",
     "ra-auth-firebase": "^1.0.2",
-    "ra-data-firebase": "^1.0.3",
+    "ra-data-firebase": "^1.0.6",
     "ra-input-rich-text": "^2.1.0",
     "react": "16.4.1",
     "react-admin": "^2.1.1",
