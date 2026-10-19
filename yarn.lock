@@ -6070,9 +6070,10 @@ ra-core@^2.1.0:
     reselect "~3.0.0"
     warning "~3.0.0"
 
-ra-data-firebase@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/ra-data-firebase/-/ra-data-firebase-1.0.3.tgz#4f3c851e171f2daf20376ca4498a93af8e095e86"
+ra-data-firebase@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/ra-data-firebase/-/ra-data-firebase-1.0.6.tgz#6e3d0fd038f91a8fa978b96e491be9d49fa82288"
+  integrity sha1-bj0P0Dj5Go+peLluSRvp1J+oIog=
   dependencies:
     deep-assign "^2.0.0"
     sort-by "^1.2.0"
